@@ -298,7 +298,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color:  linear-gradient(120deg, #adaca6d8, #fdc5c5da);
+  background-color:#adaca6d8;
   color: var(--first-color);
   text-align: center;
   font-weight: var(--font-semi);
