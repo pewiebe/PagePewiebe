@@ -3,7 +3,9 @@ window.addEventListener("DOMContentLoaded", function() {
     var welcomeMessage = "Seja bem-vindo ao meu site! Obrigado pela visita!";
     welcomeMessage += "\nEste site está sempre sendo atualizado com novos conteúdos.";
     alert(welcomeMessage);
+    
 });
+
 
 /*===== MOSTRAR MENU =====*/ 
 const showMenu = (toggleId, navId) =>{
