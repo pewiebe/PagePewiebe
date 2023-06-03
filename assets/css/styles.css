@@ -45,7 +45,7 @@ html {
 }
 
 body {
-  background: linear-gradient(120deg, #adaca6d8, #fdc5c5da);
+  background: radial-gradient(circle, rgb(252, 207, 207) 0%, rgb(72, 69, 75) 100%);
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -60,6 +60,7 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  color: radial-gradient(circle, rgba(255, 255, 255) 0%, rgb(23,1,41,1) 100%);
 }
 
 a {
@@ -76,7 +77,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -113,8 +114,8 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #adaca6d8;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  background-color:  radial-gradient(circle, rgba(255, 255, 255) 0%, rgb(23,1,41,1) 100%);
+  box-shadow: 0 1px 4px rgb(255, 255, 255);
 }
 
 /*===== NAV =====*/
@@ -298,8 +299,8 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color:#adaca6d8;
-  color: var(--first-color);
+  background-color: radial-gradient(circle, rgba(23,1,41,1) 0%, rgb(255, 255, 255) 100%);
+
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -449,6 +450,6 @@ img {
 .game-name {
   display: block;
   text-align: center;
-  color: blue ;
+  color: #fffcfc;
 }
 
