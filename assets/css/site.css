@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 /*===== VARIÁVEIS CSS =====*/
 :root {
   --header-height: 3rem;
@@ -36,7 +37,9 @@
 }
 
 /*===== BASE =====*/
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -52,7 +55,9 @@ body {
   color: var(--second-color);
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   margin: 0;
 }
 
@@ -60,7 +65,6 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: radial-gradient(circle, rgba(255, 255, 255) 0%, rgb(23,1,41,1) 100%);
 }
 
 a {
@@ -77,7 +81,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-
+  color: var(--first-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -114,8 +118,8 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color:  radial-gradient(circle, rgba(255, 255, 255) 0%, rgb(23,1,41,1) 100%);
-  box-shadow: 0 1px 4px rgb(255, 255, 255);
+  background-color: #adaca6d8;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
 /*===== NAV =====*/
@@ -299,8 +303,8 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: radial-gradient(circle, rgba(23,1,41,1) 0%, rgb(255, 255, 255) 100%);
-
+  background-color: #adaca6d8;
+  color: var(--first-color);
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -330,6 +334,7 @@ img {
   .home {
     row-gap: 2rem;
   }
+
   .home__img {
     width: 200px;
   }
@@ -339,39 +344,47 @@ img {
   .home {
     padding: 4rem 0 2rem;
   }
+
   .home__social {
     padding-top: 0;
     padding-bottom: 2.5rem;
     flex-direction: row;
     align-self: flex-end;
   }
+
   .home__social-icon {
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
+
   .home__img {
     width: 300px;
     bottom: 25%;
   }
+
   .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     text-align: initial;
   }
+
   .skills__container {
     grid-template-columns: .7fr;
     justify-content: center;
     column-gap: 1rem;
   }
+
   .work__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
   }
+
   .contact__form {
     width: 360px;
     padding-top: 2rem;
   }
+
   .contact__container {
     justify-items: center;
   }
@@ -381,53 +394,67 @@ img {
   body {
     margin: 0;
   }
+
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
   }
+
   .section-title {
     margin-bottom: var(--mb-6);
   }
+
   .section-title::after {
     width: 80px;
     top: 3rem;
   }
+
   .nav {
     height: calc(var(--header-height) + 1.5rem);
   }
+
   .nav__list {
     display: flex;
     padding-top: 0;
   }
+
   .nav__item {
     margin-left: var(--mb-6);
     margin-bottom: 0;
   }
+
   .nav__toggle {
     display: none;
   }
+
   .nav__link {
     color: var(--second-color);
   }
+
   .home {
     padding: 8rem 0 2rem;
   }
+
   .home__img {
     width: 400px;
     bottom: 10%;
   }
+
   .about__container {
     padding-top: 2rem;
   }
+
   .about__img img {
     width: 300px;
   }
+
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     align-items: center;
     text-align: initial;
   }
+
   .work__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
@@ -439,9 +466,11 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
   .home {
     padding: 10rem 0 2rem;
   }
+
   .home__img {
     width: 450px;
   }
@@ -450,6 +479,5 @@ img {
 .game-name {
   display: block;
   text-align: center;
-  color: black;
+  color: blue;
 }
-
